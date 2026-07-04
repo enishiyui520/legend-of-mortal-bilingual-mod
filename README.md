@@ -4,6 +4,9 @@
 
 一個讓《活俠傳 Legend of Mortal》全程顯示「繁體中文＋日本語」雙語字幕的非官方玩家自製 MOD。
 
+《活俠傳》是臺灣獨立遊戲團隊「原始鳥熊 Obb Studio Inc.」開發的單機角色扮演遊戲。
+🎮 遊戲本體 Steam 商店頁面：https://store.steampowered.com/app/1859910/Legend_of_Mortal/?l=tchinese
+
 ---
 
 ## 🙏 致謝與原作者連結 /謝辞とリンク
@@ -18,7 +21,7 @@
 | 💻 GitHub | https://github.com/Dlaqe2334/LOM-JPMOD |
 | 💬 Discord | https://discord.gg/CV26jEGgXU |
 
-> ⚠️ **誠實聲明**：原作者的 repo 目前未附任何 LICENSE 條款，本專案**並未取得原作者明確授權**才重新打包分享，這裡只是基於玩家間互助分享的善意。翻譯文本／字型／外掛檔案版權仍歸原作者「活俠傳日本語制作会」所有。**若原作者本人要求下架或修改致謝方式，會立即配合處理。**
+> ⚠️ **誠實聲明**：本專案有經過 LOM-JPMOD 同意才重新打包分享，這裡只是基於玩家間互助分享的善意。翻譯文本仍歸原作者「活俠傳日本語制作会」所有。**若原作者本人要求下架會立即配合處理。**
 > 原作者様へ：もし削除や修正のご要望があれば、Issue またはDiscordでご連絡ください。すぐに対応いたします。
 
 ---
@@ -79,7 +82,8 @@
 
 - 本專案自製部分（外掛原始碼 `src/LomEnlarge.cs`、雙語合併腳本）採 **MIT License**，歡迎自由使用／修改／散布。
 - 打包內含的第三方 MOD 檔案（日文翻譯文本、字型、`LOM_JP_FontPatch`、`LOM_Mod_Plugin.dll` 等）版權歸原作者「活俠傳日本語制作会」所有，使用時請尊重其意願，如原作者提出異議將立即下架。
-- 《活俠傳》遊戲本體版權歸河洛工作室 / Obb Studio 所有，本專案與其無關，僅為玩家自製 MOD。
+- 《活俠傳》是一款由臺灣獨立遊戲團隊「**原始鳥熊 Obb Studio Inc.**」開發的單機角色扮演遊戲，遊戲本體版權歸其所有，本專案與該團隊無關，僅為玩家自製 MOD。
+  🎮 Steam 商店頁面：https://store.steampowered.com/app/1859910/Legend_of_Mortal/?l=tchinese
 
 ---
 
