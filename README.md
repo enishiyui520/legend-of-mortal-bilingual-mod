@@ -49,8 +49,19 @@
 | F5 | 開關放大功能（含對話框自動加高） |
 | F9 | 開關「對話文字一律白色」 |
 
-### 移除
-刪掉 `BepInEx\plugins` 裡的 `LOM_Enlarge.dll` 和 `LOM_Bilingual_zh_only_groups.txt` 就會回到只有日文的狀態。要整個移除日文 MOD，請照日文 MOD 官網的說明操作。
+### 改回原本的版本
+先關掉遊戲，打開遊戲資料夾（`Mortal.exe` 所在的那一層）。
+
+**改回純日文（只拿掉雙語）**
+- 刪掉 `BepInEx\plugins` 裡的這兩個檔：`LOM_Enlarge.dll`、`LOM_Bilingual_zh_only_groups.txt`
+- 開遊戲就會變回日文 MOD 原本的純日文。
+
+**改回完全沒裝 MOD 的原版遊戲**
+1. 刪掉遊戲資料夾裡的這些東西：`BepInEx` 資料夾、`Mods` 資料夾（有的話）、`winhttp.dll`、`doorstop_config.ini`、`.doorstop_version`、`README_JP.txt`
+2. 在 Steam 的遊戲庫對《活俠傳》按右鍵 →「內容」→「已安裝的檔案」→「驗證遊戲檔案的完整性」，讓 Steam 把遊戲檔案補回原樣。
+3. 開遊戲，在設定裡把語言選回「繁體中文」。
+
+如果你還有裝其他使用 BepInEx 的 MOD，第 1 步不要刪整個 `BepInEx` 資料夾，請改照 [日文 MOD 官網](https://dlaqe2334.github.io/LOM-JPMOD/) 的說明只移除日文 MOD 的檔案。
 
 ### 關於文字內容
 本外掛的壓縮檔裡沒有任何遊戲文本或翻譯文字。中文是在你的電腦上從你自己的遊戲讀取，日文是從你安裝的日文 MOD 讀取，兩邊只在遊戲執行時於記憶體中組合。
@@ -99,8 +110,19 @@
 | F5 | 拡大機能のオン／オフ（ダイアログの自動拡張を含む） |
 | F9 | 「セリフの文字を常に白にする」のオン／オフ |
 
-### アンインストール
-`BepInEx\plugins` 内の `LOM_Enlarge.dll` と `LOM_Bilingual_zh_only_groups.txt` を削除すると、日本語のみの表示に戻ります。日本語化MOD自体を外す場合は、配布ページの説明に従ってください。
+### 元の状態に戻す
+ゲームを終了し、ゲームのフォルダ（`Mortal.exe` がある場所）を開きます。
+
+**日本語のみに戻す（二言語だけ外す）**
+- `BepInEx\plugins` 内の `LOM_Enlarge.dll` と `LOM_Bilingual_zh_only_groups.txt` を削除します。
+- 起動すると、日本語化MOD本来の日本語のみの表示に戻ります。
+
+**MODを入れていない元のゲームに戻す**
+1. ゲームフォルダ内の次のものを削除します：`BepInEx` フォルダ、`Mods` フォルダ（ある場合）、`winhttp.dll`、`doorstop_config.ini`、`.doorstop_version`、`README_JP.txt`
+2. Steam のライブラリで『活俠傳』を右クリック →「プロパティ」→「インストール済みファイル」→「ゲームファイルの整合性を確認」を実行し、ゲームファイルを元に戻します。
+3. ゲームを起動し、設定で言語を元の言語に戻してください。
+
+BepInEx を使う他のMODも入れている場合は、手順1で `BepInEx` フォルダごと削除せず、[日本語化MOD配布ページ](https://dlaqe2334.github.io/LOM-JPMOD/) の説明に従って日本語化MODのファイルだけを削除してください。
 
 ### テキストについて
 本プラグインの zip には、ゲームのテキストや翻訳テキストは一切含まれていません。中国語はお使いのPCのゲーム本体から、日本語は導入済みの日本語化MODから読み込み、ゲーム実行中にメモリ上でのみ組み合わせています。
